@@ -1,0 +1,99 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.produtos {
+    width: 940px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.corte {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.produtos li:hover {
+    border-color: blueviolet;
+}
+
+.produtos li:active {
+    border-color: rgb(128, 1, 247);
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.centro {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copy {
+    font-size: 22px;
+    margin: auto;
+    color: white;
+}
+
+.copy:hover {
+    font-size: 48px;
+    background: url("Android.jpg");
+}
